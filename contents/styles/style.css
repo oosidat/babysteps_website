@@ -1,0 +1,9 @@
+body {
+	margin: 0;
+	font-family: 'Lucida Grande', Arial, sans-serif;
+}
+
+.container {
+	margin: 10px;
+	padding: 10px;
+}
