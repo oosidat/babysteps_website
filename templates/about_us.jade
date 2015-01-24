@@ -1,8 +1,12 @@
-doctype html
-html(lang='en')
-  head
-    meta(charset='utf-8')
-    title= locals.title
-  body
-    h1= page.title
-    != page.html
+extends layout
+
+block append title
+  title=page.title
+
+block content
+  h2 About Us
+  
+  p team image here
+  
+  each founder in page.metadata.founders
+    li=founder.name

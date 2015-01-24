@@ -1,0 +1,31 @@
+{
+	"title": "About Us - BabySteps",
+	"template": "about_us.jade",
+	"founders" : [
+		{
+			"name": "Alisha Karmali",
+			"role": "",
+			"imagelink": ""
+		},
+		{
+			"name": "Fardeen Khan",
+			"role": "",
+			"imagelink": ""
+		},
+		{
+			"name": "Katerina Szolka",
+			"role": "",
+			"imagelink": ""
+		},
+		{
+			"name": "Shafaq Zakir",
+			"role": "",
+			"imagelink": ""
+		},
+		{
+			"name": "Osama Sidat",
+			"role": "",
+			"imagelink": ""
+		}
+	]
+}

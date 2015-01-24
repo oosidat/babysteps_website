@@ -1,5 +1,8 @@
 {
   "locals": {
-    "title": "BabySteps Academy"
-  }
+    "title": "BabySteps"
+  },
+  "plugins": [
+    "wintersmith-sass"
+  ]
 }

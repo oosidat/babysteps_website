@@ -1,0 +1,21 @@
+extends layout
+
+block append title
+  title=page.title
+
+block content
+  h2 Get Involved
+  
+  p insert an excerpt of text to motivate people
+
+  form
+    .row
+      .six.columns
+        label(for='name') Name
+        input#name.u-full-width(type="text" placeholder='Bruce Wayne')
+      .six.columns
+        label(for='email') Email
+        input#email.u-full-width(type='email', placeholder='bwayne@batcave.com')
+      label(for='message') Message
+      textarea#message.u-full-width(placeholder='Hello BabySteps!')
+      input.button-primary(type='submit', value='Submit')

@@ -1,4 +1,0 @@
----
-title: BabySteps
-template: index.jade
----
