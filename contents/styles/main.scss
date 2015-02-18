@@ -9,23 +9,17 @@ body {
 .header {
   width: 100%;
   text-align: center;
-  
+
   h1 {
     margin: 20px;
-  }
-
-  img {
-    width: auto;
-    height: auto;
-    max-height: 180px;
-    max-width: 650px;
   }
 }
 
 .nav-menu {
-  text-align: center;
+  margin-top: 10px;
   margin-bottom: 10px;
-  
+  border-bottom: 1px solid #d0d0d0;
+
   ul.site-nav-list {
     list-style: none;
     margin: 0;
@@ -33,20 +27,29 @@ body {
     display: block;
 
     .nav-item {
-      padding: 20px; 
       position: relative;
       display: inline;
+      font-weight: 200;
+      margin-right: 20px;
+
+      h6 {
+        display: inline-block;
+      }
+
+      img {
+        width: 100%;
+        max-width: 100px;
+      }
 
       a {
         color: grey;
         text-decoration: none;
+        padding-bottom: 10px
       }
 
       a:hover {
-        color: pink;
+        border-bottom: 1px solid grey;
       }
     }
   }
 }
-
-
