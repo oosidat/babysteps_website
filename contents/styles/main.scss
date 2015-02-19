@@ -72,6 +72,29 @@ body {
   }
 }
 
+div.teamimage {
+  margin-top: 20px;
+  text-align: center;
+  height: 100%;
+  min-height: 100%;
+}
+
+img.circle {
+  width: 100%;
+  max-width: 100px;
+  border-radius: 200px;
+  box-shadow: 0px 0px 0px 1px
+}
+
+img.team {
+  width: 100%;
+}
+
+.teamdetails {
+  margin-top: 25px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 470px) {
   .nav-menu {
     .menu {

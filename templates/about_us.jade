@@ -4,9 +4,16 @@ block append title
   title=page.title
 
 block content
-  h2 About Us
   
-  p team image here
+  div.teamimage
+    img.team(src="images/team/group.jpg")
+    h6 The BabySteps Team
   
-  each founder in page.metadata.founders
-    li=founder.name
+  .container
+    .teamdetails
+      .row
+        h5 Who Are We?
+      .row
+        each founder in page.metadata.founders
+          img.circle(src=founder.imagelink)
+          h6=founder.name
