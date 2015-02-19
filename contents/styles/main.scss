@@ -6,7 +6,12 @@
     transition: $transition-property $transition-time $method;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   margin: 0;
 }
 
@@ -77,6 +82,7 @@ div.teamimage {
   text-align: center;
   height: 100%;
   min-height: 100%;
+  display: block;
 }
 
 img.circle {
@@ -93,7 +99,46 @@ img.team {
 .teamdetails {
   margin-top: 25px;
   text-align: center;
+  display: block;
 }
+
+div.frontwrapper {
+  padding: 0 10%;
+}
+
+div.frontpage {
+  float: left;
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 70px;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 1130px) {
+  div.frontpage {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  div.frontpage {
+    font-size: 55px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  div.frontpage {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  div.frontpage {
+    font-size: 40px;
+  }
+}
+
 
 @media only screen and (max-width: 470px) {
   .nav-menu {
