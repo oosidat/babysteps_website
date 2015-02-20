@@ -1,0 +1,17 @@
+extends layout
+
+block append title
+  title=page.title
+
+block content
+  .container
+    .pressdetails
+      h2 BabySteps in the Press
+      h6 Check out BabySteps' Press Coverage!
+      .row
+        each article in page.metadata.articles
+          .article
+            h5=article.publication
+            h6=article.headline
+            a(href=article.link)=article.link
+            hr

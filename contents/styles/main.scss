@@ -118,6 +118,15 @@ div.frontpage {
   font-weight: 100;
 }
 
+.article {
+  h5, h6 {
+    margin: 0;
+  }
+  a {
+    font-size: 90%;
+  }
+}
+
 @media only screen and (max-width: 970px) {
   div.frontpage {
     font-size: 60px;
@@ -160,7 +169,7 @@ div.frontpage {
   }
 }
 
-@media only screen and (max-width: 515px) {
+@media only screen and (max-width: 615px) {
   .nav-menu {
     .menu {
       max-height: 0;

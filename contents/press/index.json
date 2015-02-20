@@ -1,0 +1,11 @@
+{
+	"title": "Press - BabySteps",
+	"template": "press.jade",
+	"articles" : [
+		{
+      "publication": "University of Waterloo - Psychology News",
+			"headline": "Startup takes baby steps to million-dollar prize",
+			"link": "https://uwaterloo.ca/psychology/news/startup-takes-baby-steps-million-dollar-prize"
+		}
+	]
+}
