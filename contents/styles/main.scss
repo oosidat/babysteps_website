@@ -66,8 +66,9 @@ body {
         font-weight: 200;
         margin-right: 20px;
         padding-bottom: 10px;
+        border-bottom: 1px solid transparent;
         &:hover {
-          border-bottom: 1px solid grey;
+          border-color: grey;
         }
 
         a {
@@ -113,23 +114,29 @@ div.frontpage {
   padding: 20px;
   text-align: center;
   vertical-align: middle;
-  font-size: 70px;
+  font-size: 65px;
   font-weight: 100;
 }
 
-@media only screen and (max-width: 1130px) {
+@media only screen and (max-width: 970px) {
   div.frontpage {
     font-size: 60px;
   }
 }
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 895px) {
   div.frontpage {
     font-size: 55px;
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 750px) {
+  div.frontpage {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
   div.frontpage {
     font-size: 45px;
   }
@@ -141,8 +148,19 @@ div.frontpage {
   }
 }
 
+@media only screen and (max-width: 390px) {
+  div.frontpage {
+    font-size: 35px;
+  }
+}
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 321px) {
+  div.frontpage {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 515px) {
   .nav-menu {
     .menu {
       max-height: 0;
