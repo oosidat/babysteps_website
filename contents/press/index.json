@@ -2,10 +2,25 @@
 	"title": "Press - BabySteps",
 	"template": "press.jade",
 	"articles" : [
+    {
+      "publication": "University of Waterloo - Student Success Office",
+			"headline": "It takes a village",
+			"link": "https://uwaterloo.ca/student-success/blog/post/it-takes-village"
+		},
+    {
+      "publication": "Imprint",
+			"headline": "UW startup advances to the regional round of $1 million competition",
+			"link": "http://uwimprint.ca/article/4732-uw-startup-advances-to-the-regional"
+		},
 		{
       "publication": "University of Waterloo - Psychology News",
 			"headline": "Startup takes baby steps to million-dollar prize",
 			"link": "https://uwaterloo.ca/psychology/news/startup-takes-baby-steps-million-dollar-prize"
+		},
+    {
+      "publication": "St. Paul's University College",
+			"headline": "GreenHouse startup wins first round of coveted social enterprise prize",
+			"link": "https://uwaterloo.ca/stpauls/news/greenhouse-startup-wins-first-round-coveted-social"
 		}
 	]
 }
