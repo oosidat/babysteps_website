@@ -39,6 +39,7 @@ body {
     display: inline-block;
     float: left;
     margin-right: 20px;
+    margin-bottom: 0;
   }
 
   .menuIcon {
@@ -97,6 +98,15 @@ img.circle {
 
 img.team {
   width: 100%;
+}
+
+.founder {
+  margin: 20px;
+  
+  .foundername {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
 }
 
 .teamdetails {

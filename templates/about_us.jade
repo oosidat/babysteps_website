@@ -15,5 +15,6 @@ block content
         h5 Who Are We?
       .row
         each founder in page.metadata.founders
-          img.circle(src=founder.imagelink)
-          h6=founder.name
+          .founder
+            img.circle(src=founder.imagelink)
+            div.foundername=founder.name
