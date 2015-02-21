@@ -91,7 +91,7 @@ div.teamimage {
 
 img.circle {
   width: 100%;
-  max-width: 100px;
+  max-width: 130px;
   border-radius: 200px;
   box-shadow: 0px 0px 0px 1px
 }
@@ -102,7 +102,8 @@ img.team {
 
 .founder {
   margin: 20px;
-  
+  display: inline-block;
+
   .foundername {
     font-size: 1.5rem;
     font-weight: 300;
@@ -137,6 +138,18 @@ div.frontpage {
   }
 }
 
+@media only screen and (max-width: 1069px) {
+  img.circle {
+    max-width: 180px;
+  }
+}
+
+@media only screen and (max-width: 829px) {
+  img.circle {
+    max-width: 160px;
+  }
+}
+
 @media only screen and (max-width: 970px) {
   div.frontpage {
     font-size: 60px;
@@ -152,6 +165,9 @@ div.frontpage {
 @media only screen and (max-width: 750px) {
   div.frontpage {
     font-size: 50px;
+  }
+  .founder {
+    display: block;
   }
 }
 
