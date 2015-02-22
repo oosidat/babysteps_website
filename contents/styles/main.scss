@@ -42,7 +42,7 @@ body {
     text-decoration: none;
     color: #4A90E2;
 
-    &:hover {
+    &:hover, &:active {
       color: #BD10E0
     }
   }
@@ -161,7 +161,7 @@ div.frontpage {
     text-decoration: none;
     color: #222;
 
-    &:hover {
+    &:hover, &:active {
       .facebook {
         color: $facebook
       }
