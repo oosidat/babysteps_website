@@ -1,4 +1,6 @@
 {
 	"title": "Get Involved - BabySteps",
-	"template": "get_involved.jade"
+	"template": "get_involved.jade",
+	"social_media_facebook": "https://www.facebook.com/BabyStepsAcademy",
+	"social_media_twitter": "https://twitter.com/BabyStepsAcdmy"
 }

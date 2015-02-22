@@ -8,6 +8,9 @@
     transition: $transition-property $transition-time $method;
 }
 
+$twitter: #00aced;
+$facebook: #3b5998;
+
 html {
   height: 100%;
 }
@@ -34,6 +37,15 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #d0d0d0;
+
+  a.title {
+    text-decoration: none;
+    color: #4A90E2;
+
+    &:hover {
+      color: #BD10E0
+    }
+  }
 
   h6 {
     display: inline-block;
@@ -141,6 +153,36 @@ div.frontpage {
   a {
     font-size: 90%;
   }
+}
+
+.socialmedia {
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: #222;
+
+    &:hover {
+      .facebook {
+        color: $facebook
+      }
+
+      .twitter {
+        color: $twitter
+      }
+    }
+  }
+  .socialmediaicon {
+    width: 90px;
+    text-align: center;
+    display: inline-block;
+    i {
+      font-size: 40px;
+    }
+  }
+}
+
+.heading {
+  text-align: center;
 }
 
 @media only screen and (max-width: 1069px) {

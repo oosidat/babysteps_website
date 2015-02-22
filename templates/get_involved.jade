@@ -5,9 +5,22 @@ block append title
 
 block content
   .container
-    h2 Get Involved With BabySteps!
+    h2.heading Get Involved With BabySteps!
     
-    h6 Interested in helping us change the world? Contact us!
+    h6.heading Follow us on social media!
+    
+    .row.socialmedia
+      a(href=page.metadata.social_media_facebook, target="_blank")
+        .socialmediaicon.facebook
+          i.icon-facebook-squared
+          div Facebook
+      a(href=page.metadata.social_media_twitter, target="_blank")
+        .socialmediaicon.twitter
+          i.icon-twitter
+          div Twitter
+    hr
+    
+    h6.heading Interested in helping us change the world? Contact us!
 
     form
       .row
