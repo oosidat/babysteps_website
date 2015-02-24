@@ -29,14 +29,14 @@ block content
       
     h6.heading Interested in helping us change the world? Contact us!
 
-    form
+    form(action=page.metadata.email, method="POST")
       .row
         .six.columns
           label(for='name') Name
-          input#name.u-full-width(type="text" placeholder='Bruce Wayne' required='')
+          input#name.u-full-width(name="name", type="text", placeholder='Bruce Wayne', required='')
         .six.columns
           label(for='email') Email
-          input#email.u-full-width(type='email', placeholder='bwayne@batcave.com' required='')
+          input#email.u-full-width(name='_replyto', type='email', placeholder='bwayne@batcave.com', required='')
         label(for='message') Message
-        textarea#message.u-full-width(placeholder='Hello BabySteps!' required='')
+        textarea#message.u-full-width(name="message", placeholder='Hello BabySteps!' required='')
         input.button-primary(type='submit', value='Submit')
