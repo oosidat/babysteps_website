@@ -40,6 +40,7 @@ body {
 
   a.title {
     text-decoration: none;
+    transition: color 1.0s ease-in-out;
     color: #4A90E2;
 
     &:hover, &:active {
@@ -80,6 +81,7 @@ body {
         margin-right: 20px;
         padding-bottom: 10px;
         border-bottom: 1px solid transparent;
+        transition: border-color 0.75s ease;
         &:hover {
           border-color: grey;
         }
