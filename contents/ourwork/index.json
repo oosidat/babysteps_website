@@ -1,4 +1,6 @@
 {
 	"title": "Our Work - BabySteps",
-	"template": "our_work.jade"
+	"template": "our_work.jade",
+	"social_media_facebook": "https://www.facebook.com/BabyStepsAcademy",
+	"social_media_twitter": "https://twitter.com/BabyStepsAcdmy"
 }
