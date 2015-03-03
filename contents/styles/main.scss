@@ -20,8 +20,9 @@ body {
   margin: 0;
 }
 
-.container {
-  margin: 50px;
+.container.wrapper {
+  margin: auto;
+  max-width: 620px;
 }
 
 .header {
@@ -189,19 +190,6 @@ div.frontpage {
 
 .heading {
   text-align: center;
-}
-
-@media only screen and (max-width: 1169px) {
-
-  .founder, img.circle {
-    max-width: 190px;
-  }
-}
-
-@media only screen and (max-width: 865px) {
-  .founder, img.circle {
-    max-width: 160px;
-  }
 }
 
 @media only screen and (max-width: 970px) {
