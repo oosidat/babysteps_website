@@ -196,6 +196,16 @@ div.frontpage {
   text-align: center;
 }
 
+.footer {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 30px;
+  text-align: center;
+  a {
+    text-decoration: none
+  }
+}
+
 @media only screen and (max-width: 970px) {
   div.frontpage {
     font-size: 60px;
