@@ -1,0 +1,190 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  margin: 0; }
+
+.container.wrapper {
+  margin: auto;
+  max-width: 620px; }
+
+.header {
+  width: 100%;
+  text-align: center; }
+  .header h1 {
+    margin: 20px; }
+
+.nav-menu {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #d0d0d0; }
+  .nav-menu a.title {
+    text-decoration: none;
+    transition: color 1.0s ease-in-out;
+    color: #4A90E2; }
+    .nav-menu a.title:hover, .nav-menu a.title:active {
+      color: #BD10E0; }
+  .nav-menu .logo {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    vertical-align: top;
+    font-weight: 300; }
+  .nav-menu .menuIcon {
+    display: none;
+    float: right;
+    text-align: right; }
+    .nav-menu .menuIcon a {
+      display: inline-block;
+      text-decoration: none;
+      color: grey; }
+  .nav-menu .menu {
+    display: inline-block; }
+    .nav-menu .menu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: block; }
+      .nav-menu .menu ul li.nav-item {
+        float: left;
+        display: inline-block;
+        font-weight: 200;
+        margin-right: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid transparent;
+        transition: border-color 0.75s ease; }
+        .nav-menu .menu ul li.nav-item:hover {
+          border-color: grey; }
+        .nav-menu .menu ul li.nav-item a {
+          color: grey;
+          text-decoration: none; }
+
+div.teamimage {
+  margin-top: 20px;
+  text-align: center;
+  height: 100%;
+  min-height: 100%;
+  display: block; }
+
+img.circle {
+  width: 100%;
+  max-width: 130px;
+  border-radius: 200px;
+  box-shadow: 0px 0px 0px 1px; }
+
+img.team {
+  width: 100%; }
+
+.founder {
+  vertical-align: top;
+  margin: 20px;
+  max-width: 130px;
+  display: inline-block; }
+  .founder .foundername {
+    font-size: 1.5rem;
+    font-weight: 300; }
+  .founder .founderrole {
+    font-size: 1.2rem;
+    font-weight: 200; }
+
+.teamdetails {
+  margin-top: 25px;
+  text-align: center;
+  display: block; }
+
+div.frontwrapper {
+  padding: 0 10%;
+  height: 100%; }
+
+div.frontpage {
+  float: left;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 65px;
+  font-weight: 100;
+  width: 100%; }
+
+.article h5, .article h6 {
+  margin: 0; }
+.article a {
+  font-size: 90%; }
+
+.socialmedia {
+  text-align: center; }
+  .socialmedia a {
+    text-decoration: none;
+    color: #222; }
+    .socialmedia a:hover .facebook, .socialmedia a:active .facebook {
+      color: #3b5998; }
+    .socialmedia a:hover .twitter, .socialmedia a:active .twitter {
+      color: #00aced; }
+  .socialmedia .socialmediaicon {
+    width: 90px;
+    text-align: center;
+    display: inline-block; }
+    .socialmedia .socialmediaicon i {
+      font-size: 40px; }
+
+.heading {
+  text-align: center; }
+
+@media only screen and (max-width: 970px) {
+  div.frontpage {
+    font-size: 60px; } }
+@media only screen and (max-width: 895px) {
+  div.frontpage {
+    font-size: 55px; } }
+@media only screen and (max-width: 750px) {
+  div.frontpage {
+    font-size: 50px; }
+
+  .founder {
+    display: block;
+    max-width: 100%; } }
+@media only screen and (max-width: 560px) {
+  div.frontpage {
+    font-size: 45px; } }
+@media only screen and (max-width: 470px) {
+  div.frontpage {
+    font-size: 40px; } }
+@media only screen and (max-width: 390px) {
+  div.frontpage {
+    font-size: 35px; } }
+@media only screen and (max-width: 321px) {
+  div.frontpage {
+    font-size: 30px; } }
+@media only screen and (max-width: 635px) {
+  .nav-menu .logo {
+    float: left;
+    margin: 0; }
+  .nav-menu .menu {
+    max-height: 0;
+    overflow: hidden;
+    float: none;
+    text-align: center;
+    width: 100%;
+    -webkit-transition: max-height 0.5s ease-in-out;
+    -moz-transition: max-height 0.5s ease-in-out;
+    -ms-transition: max-height 0.5s ease-in-out;
+    -o-transition: max-height 0.5s ease-in-out;
+    transition: max-height 0.5s ease-in-out; }
+    .nav-menu .menu.menuOpen {
+      max-height: 1000px;
+      -webkit-transition: max-height 0.5s ease-in-out;
+      -moz-transition: max-height 0.5s ease-in-out;
+      -ms-transition: max-height 0.5s ease-in-out;
+      -o-transition: max-height 0.5s ease-in-out;
+      transition: max-height 0.5s ease-in-out; }
+    .nav-menu .menu ul li {
+      display: block;
+      width: 100%; }
+      .nav-menu .menu ul li a {
+        width: 100%; }
+  .nav-menu .menuIcon {
+    display: inline-block; } }
