@@ -5,27 +5,27 @@
 		{
 			"name": "Alisha Karmali",
 			"role": "Operations",
-			"imagelink": "/images/team/babysteps-alisha.jpg"
+			"imagelink": "/babysteps_website/images/team/babysteps-alisha.jpg"
 		},
 		{
 			"name": "Fardeen Khan",
 			"role": "Communications",
-			"imagelink": "/images/team/babysteps-fardeen.jpg"
+			"imagelink": "/babysteps_website/images/team/babysteps-fardeen.jpg"
 		},
 		{
 			"name": "Katerina Szkolka",
 			"role": "Education & Research",
-			"imagelink": "/images/team/babysteps-katerina.jpg"
+			"imagelink": "/babysteps_website/images/team/babysteps-katerina.jpg"
 		},
 		{
 			"name": "Shafaq Zakir",
 			"role": "Financial & Economic \nDevelopment",
-			"imagelink": "/images/team/babysteps-shafaq.jpg"
+			"imagelink": "/babysteps_website/images/team/babysteps-shafaq.jpg"
 		},
 		{
 			"name": "Osama Sidat",
 			"role": "Technical Development",
-			"imagelink": "/images/team/babysteps-osama.jpg"
+			"imagelink": "/babysteps_website/images/team/babysteps-osama.jpg"
 		}
 	]
 }
